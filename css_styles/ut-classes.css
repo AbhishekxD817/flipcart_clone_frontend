@@ -1,0 +1,32 @@
+
+
+.flex-all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.space-bw{
+    justify-content: space-between;
+}
+
+.c-black{
+    color: black;
+}
+
+.decoration-none{
+    text-decoration: none;
+}
+
+
+.arrowBlue-Btn{
+    background-color: #1C41D6;
+    color: white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border: none;
+    text-decoration: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
