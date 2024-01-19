@@ -1,0 +1,442 @@
+@media (max-width:1190px) {
+
+    body{
+        /* background-color: green; */
+        /* overflow: hidden; */
+        /* background-color: #F1F2F4; */
+    }
+    body::-webkit-scrollbar{
+        display: none;
+    }
+
+
+    /* header */
+    
+    header nav{
+        width: 996px;
+    }
+
+    .navButtons {
+        width: fit-content;
+        min-width: 265px;
+        justify-content: center;
+        align-items: center;
+        /* background-color: rgb(45, 2, 145); */
+    }
+
+    .navButtons ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* background-color: green; */
+        position: relative;
+
+
+    }
+    .navButtons ul li{
+        /* background-color: blueviolet; */
+        width: fit-content;
+        margin: 0 .5rem;
+    }
+    .navButtons ul li a{
+        /* background-color: red; */
+        /* border: 1px solid black; */
+        width: fit-content;
+    }
+    .navButtons ul li:nth-child(2) span,
+    .navButtons ul li:nth-child(3) span{
+        display: none;
+    }
+
+    .navButtons .seller-btn{
+        width: fit-content;
+    }
+
+
+
+
+
+    .cards-section{
+        height: fit-content;
+    }
+
+    .bestMobileCardsContainer{
+        /* background-color: red; */
+        height: fit-content;
+    }
+
+    .cards{
+        width: 160px;
+        height: 212px;
+    }
+
+
+
+
+
+    /* categoties */
+    .categories{
+        justify-content: flex-start;
+        overflow: scroll;
+        
+    }
+    .categories::-webkit-scrollbar{
+        display: none;
+    }
+
+
+    .slider button{
+        display: none;
+
+    }
+
+
+
+
+
+
+
+
+
+
+    /* .bestMobile-Container */
+
+    /* .bestMobile-Container{
+
+    } */
+
+
+
+
+
+
+    /* best mobile section */
+    
+
+    /* offer card */
+    .offerCard{
+        display: none;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+    /* banners */
+    .banners{
+        height: fit-content;
+    }
+    .banner{
+        width: 30%;
+    }
+
+
+
+
+    /* full width cards section */
+    /* top deals */
+
+
+    .cards-section{
+        background-color: rgb(255, 255, 255);
+        height: fit-content;
+    }
+
+    .cardsContainer{
+        /* background-color: red; */
+        height: fit-content;
+        padding: .5em 0.5em;
+    }
+    .card{
+        width: 160px;
+        height: 212px;
+        font-size: 10px;
+    }
+    .card .imgDiv{
+        padding: .5em 1em;
+        /* background-color: red; */
+
+    }
+
+    .card .productDetails .name,
+    .productDetails .offer{
+        font-size: 10px;
+    }
+    .productDetails .name h1, 
+    .productDetails .offer h3{
+        font-size: 1em;
+    }
+
+
+
+
+
+
+    
+    footer{
+        height: fit-content;
+
+    }
+    .footerDiv1{
+        /* background-color: red; */
+        grid-template-columns: repeat(3,1fr);
+        padding: 0.5em 0.5em;
+    }
+
+
+    .footerDiv2{
+        /* flex-wrap: wrap; */
+        justify-content: center;
+        gap: 1rem;
+        height: fit-content;
+    }
+    .footerDiv2 ul{
+        flex-wrap: wrap;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+        font-size:10px ;
+    
+    }
+    .footerDiv2 ul li{
+        font-size: 1.1em;
+    }
+    .footerDiv2 ul img{
+        width: 75vw;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+@media (max-width:766px) {
+
+
+    header{
+        height: 48px;
+    }
+    header nav{
+        width: 480px;
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        
+    }
+
+    .searchBar{
+        display: none;
+    }
+
+    .navButtons{
+        width: fit-content;
+        min-width:  0px;
+    }
+    .navButtons ul{
+        width: fit-content;
+        justify-content: center;
+        /* background-color: red; */
+    }
+    .navButtons ul li{
+        margin: 0;
+    }
+
+    .navButtons ul li a{
+        padding: 0 .5rem;
+    }
+
+    .navButtons ul li:nth-child(3),
+    .navButtons ul li:nth-child(4){
+        /* background-color: red; */
+        display: none;
+    }
+
+    #loginArrowImg{
+        display: none;
+    }
+    
+    .menu-btn{
+        font-size: 1.5rem;
+        display: block;
+        position: absolute;
+        left: 0;
+        /* background-color: red; */
+        margin-left: 0.5rem;
+    }
+
+
+
+
+
+    /* section */
+    section{
+        margin: 0;
+    }
+
+
+    /* categories */
+    .categories{
+        margin: 0 ;
+    }
+    .categories::-webkit-scrollbar{
+        display: none;
+    }
+
+
+
+
+
+    /* cards */
+    .bestMobile-Container{
+        height: fit-content;
+        flex-wrap: wrap;
+    }
+
+    .bestMobile-Container button{
+        display: none;
+        width: fit-content;
+        
+    }
+    .bestMobile-Section{
+        height: fit-content;
+        /* background-color: green; */
+    }
+
+    .bestMobileCardsContainer{
+        background-color:#fff;
+    }
+
+    .cards{
+        height: 154px;
+        width: 102px;
+        font-size: 10px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        padding: .25rem;
+        flex: 0 0 auto;
+    }
+    .cards img{
+        flex: 0 0 auto;
+        height: 92px;
+        width: 92px;
+        /* border: 81px solid green; */
+    }
+
+
+    .cards p{
+        margin:  auto;
+        font-size: 1em;
+        margin: 1rem 0 0 0;
+    }
+    .cards h3{
+        font-size: 1em;
+    }
+
+
+
+
+
+    /* offer card */
+    .offerCard{
+        display: none;
+    }
+
+
+
+
+
+    /* full width cards section */
+    /* top deals */
+
+
+    .cards-section{
+        background-color: rgb(255, 255, 255);
+        height: fit-content;
+    }
+
+    .cardsContainer{
+        /* background-color: red; */
+        height: fit-content;
+        padding: .5em 0.5em;
+    }
+    .card{
+        height: 154px;
+        width: 102px;
+        font-size: 10px;
+    }
+    .card .imgDiv{
+        padding: .5em 1em;
+        /* background-color: red; */
+
+    }
+
+    .card .productDetails .name,
+    .productDetails .offer{
+        font-size: 10px;
+    }
+    .productDetails .name h1, 
+    .productDetails .offer h3{
+        font-size: 1em;
+    }
+
+
+
+
+
+    footer{
+        height: fit-content;
+
+    }
+    .footerDiv1{
+        /* background-color: red; */
+        grid-template-columns: repeat(2,1fr);
+        padding: 0.5em 0.5em;
+        font-size: 10px;
+    }
+    .footerDiv1 div p, 
+    .footerDiv1 div ul li{
+        font-size:1.1em;
+    }
+
+
+    .footerDiv2{
+        /* flex-wrap: wrap; */
+        justify-content: center;
+        gap: 1rem;
+        height: fit-content;
+    }
+    .footerDiv2 ul{
+        flex-wrap: wrap;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+        font-size:10px ;
+    
+    }
+    .footerDiv2 ul li{
+        font-size: 1.1em;
+        
+    }
+    .footerDiv2 ul img{
+        width: 75vw;
+    }
+
+
+}

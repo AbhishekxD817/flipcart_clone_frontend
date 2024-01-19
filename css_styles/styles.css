@@ -8,6 +8,7 @@
 
 body{
     background-color: #F1F2F4;
+    /* background-color: red; */
 }
 body::-webkit-scrollbar{
     display: none;
@@ -19,6 +20,9 @@ header{
     position: sticky;
     top: 0;
     z-index: 1;
+}
+.menu-btn{
+    display: none;
 }
 nav{
     /* background-color: wheat; */
@@ -162,14 +166,18 @@ section{
     margin-top: 1.5rem;
     display: flex;
     align-items: center;
-    height: 35vh;
+    height: 20vh;
     background-color: #070046;
     width: 100%;
-    background-image: url("https://rukminim2.flixcart.com/fk-p-flap/1600/270/image/eb64347ca9e81b7e.jpg?q=20");
+    height: fit-content;
+    
     background-size: contain;
     background-repeat: no-repeat;
     position: relative;
     cursor: pointer;
+}
+.slider img{
+    width: 100%;
 }
 
 .slider button{
@@ -187,8 +195,11 @@ section{
     border-top-left-radius: 5px;
 }
 .slider button:nth-child(1){
+    position: absolute;
+    left:0 ;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
+    
 }
 .slider button:nth-child(1) svg{
     transform: rotate(180deg);
@@ -321,8 +332,7 @@ section{
 .cards img{
 
     width: 90%;
-    min-height: 181px;
-    max-height: 191px;
+    max-height: 191px; 
 
    
 }
